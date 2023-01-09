@@ -1,0 +1,255 @@
+body{
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.first-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+    margin-top: 100px   ;
+}
+.form-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.title{
+    margin-top: 150px;
+}
+.face{
+    color: #2158f3;
+    font-weight: 700;
+    font-size: 50px;
+}
+.face2{
+    font-size: 20px;
+}
+.first-form{
+    width: 100%;
+
+}
+
+
+.mail{
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.email_lab{
+    visibility: hidden;
+    color: red;
+   width: 100%;
+   text-align: center;
+   font-weight: 500;
+}
+.pass{
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.pas_lab{
+    visibility: hidden;
+    color: red;
+   width: 100%;
+   text-align: center;
+   font-weight: 500;
+}
+.log-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.log{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+.forget{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.fst-hr{
+    margin-bottom: 30px;
+}
+
+.cr-div{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: -30px;
+
+    
+}
+.creat{
+
+    display: flex;
+    justify-content: center;
+    background-color: #4caf50;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    width: 60%;
+}
+
+.mail2{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+.pass2{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+.si-nav{
+    margin-top: -20px;
+    background-color:#5b5bc4  ;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.d-flex{
+justify-content: space-around;
+}
+.my-nav-title{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.my-nav-input-mail{
+    border-radius: 0;
+    height: 50%;
+}
+.my-nav-input-btn{
+    color: white;
+    border:1px solid rgb(21, 6, 63) ;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.my-boody{
+    display: flex;
+    justify-content: space-between;
+    height: 85vh    ;
+    
+}
+.left-my-boody{
+    margin-left: 30px;
+    width: 43%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.right-my-boody{
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+}
+.ist-form-row{
+    margin-bottom: 10px;
+}
+
+.date{
+    width: 100%;
+}
+.why{
+    color: #2158f3;
+    font-size: 12px;
+    line-height: 14px;
+}
+.male{
+    display: flex;
+    justify-content: space-between;
+}
+.form-check-label{
+    font-size: 20px;
+}
+.lst-Btn{
+    width: 40%;
+    font-weight: 700;
+}
+.error{
+    color: red;
+}
+.fname-lab{
+   margin-left: 5px !important;
+
+}
+.lname-lab{
+    margin-left: 5px !important;
+}
+.mob-lab{
+    margin-left: 5px !important;
+}
+.pass3-lab{
+    margin-left: 5px !important;
+}
+
+@media screen and (max-width : 695px) {
+    .my-boody{
+
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .left-my-boody {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .right-my-boody{
+        width: fit-content;
+        margin: auto;
+    }
+    .connect{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        font-size: 17px;
+        text-align: center;
+    }
+    .my-form-h1{
+        text-align: center;
+    }
+    
+    .my-form-p{
+        text-align: center;
+    }
+    .creatAcc-btn-cont{
+        display: flex;
+        justify-content: center;
+    }
+    .creatAcc-btn{
+      width: 10em;
+        font-size: 12px !important;
+    }
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .mail2{
+        width: 90%;
+    }
+    .pass2{
+        width: 90%;
+    }
+    .si-nav{
+        display: flex;
+        justify-content: space-evenly !important;
+    }
+    .form-check-label{
+        font-size: 14px;
+    }
+
+
+}

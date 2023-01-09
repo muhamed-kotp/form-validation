@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container first-cont">
+      <div class="title">
+        <h1 class="face">facebook</h1>
+        <p class="face2">
+          Facebook helps you to connect and share with <br />
+          the people in your life.
+        </p>
+      </div>
+      <div class="form-container shadow">
+        <div>
+          <form
+            action="index.html"
+            class="first-form p-3"
+            onsubmit="return validation()"
+          >
+            <label for="exampleFormControlInput1" class="email_lab"></label>
+            <input
+              type="email"
+              class="form-control mail"
+              id="exampleFormControlInput1"
+              placeholder="E-mail adderss or phone number"
+            />
+            <label for="inputPassword2" class="pas_lab"></label>
+            <input
+              type="password"
+              class="form-control pass"
+              id="inputPassword2"
+              placeholder="Password"
+              minlength="6"
+              maxlength="15"
+            />
+            <div class="log-div">
+              <button class="btn btn-primary btn-lg log" type="submit">
+                Login
+              </button>
+            </div>
+            <a href="" class="forget">Foregeten password?</a>
+            <hr class="fst-hr" />
+          </form>
+          <div class="btn-cont">
+            <a href="/sign-up.html" class="cr-div">
+              <button class="btn creat">Creat New Account</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/popper.min.js "></script>
+    <script src="/js/bootstrap.min.js "></script>
+    <script src="/js/myjs..js"></script>
+  </body>
+</html>

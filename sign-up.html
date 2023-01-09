@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light pb-0">
+      <div class="container-fluid si-nav">
+        <p class="my-nav-title">facebook</p>
+        <form class="d-flex">
+          <div class="mail2">
+            <label for="exampleFormControlInput1">Email or phone</label>
+            <input
+              type="email"
+              class="form-control my-nav-input-mail"
+              id="exampleFormControlInput1"
+            />
+          </div>
+          <div class="pass2">
+            <label for="inputPassword2">Password</label>
+            <input
+              type="password"
+              class="form-control my-nav-input-mail"
+              id="inputPassword2"
+            />
+          </div>
+          <button class="btn my-nav-input-btn" type="submit">Login</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="my-boody">
+      
+      <div class="left-my-boody">
+        <h2 class="connect">
+          Connect with friends and the <br />
+          world around you on Facebook.
+        </h2>
+      </div>
+
+      <div class="right-my-boody">
+        <form action="index.html" onsubmit="return comparison()">
+          <h1 class="my-form-h1">Sign Up</h1>
+          <p class="my-form-p">It's free and always will be.</p>
+
+          <div class="row g-3 ist-form-row">
+            <div class="col">
+              <label class="fname-lab">First Name</label>
+              <input
+                type="text"
+                class="form-control fname"
+                placeholder="First name"
+                aria-label="First name"
+              />
+            </div>
+            <div class="col">
+              <label class="lname-lab">Last Name</label>
+              <input
+                type="text"
+                class="form-control lname"
+                placeholder="Last name"
+                aria-label="Last name"
+              />
+            </div>
+          </div>
+
+          <div class="row g-3 ist-form-row">
+            <div class="col-md-6 w-100">
+              <label class="mob-lab">E-mail Account</label>
+              <input
+                type="text"
+                class="form-control mob"
+                placeholder="Mobile number or email"
+              />
+            </div>
+          </div>
+
+          <div class="row g-3 ist-form-row">
+            <div class="col-md-6 w-100">
+              <label class="pass3-lab">Password</label>
+              <input
+                type="password"
+                class="form-control pass3"
+                placeholder="New password"
+                minlength="6"
+                maxlength="15"
+              />
+            </div>
+          </div>
+
+          <div class="row g-3 ist-form-row">
+            <div class="col-md-6 w-100">
+              <label for="start">Birthday</label>
+            </div>
+          </div>
+
+          <div class="row g-3 ist-form-row">
+            <div class="col">
+              <input
+                type="date"
+                id="start"
+                class="date"
+                name="trip-start"
+                value="2018-07-22"
+              />
+            </div>
+
+            <div class="col why">
+              <a
+                >Why do i need to provide my <br />
+                birthday</a
+              >
+            </div>
+          </div>
+
+          <div class="row g-3 ist-form-row">
+            <div class="col male">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
+                />
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Female
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault2"
+                  checked
+                />
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Male
+                </label>
+              </div>
+            </div>
+
+            <div class="col"></div>
+          </div>
+
+          <div class="row g-3 ist-form-row">
+            <div class="col-md-6 w-100 why">
+              <p>
+                By clicking Creat Account. You agree to our Terms and that you
+                <br />
+                have read our Data Policy, including our cookie Use, You may
+                <br />
+                recieve SMS Notification from Facebook and can opt out at any
+                <br />
+                time
+              </p>
+            </div>
+          </div>
+
+        
+            <div class="col-md-6 w-100 creatAcc-btn-cont">
+              <button type="submit" class="creatAcc-btn btn btn-success btn-lg lst-Btn">
+                Creat Account
+              </button>
+            </div>
+        
+        </form>
+      </div>
+    </div>
+
+    <script src="/js/popper.min.js "></script>
+    <script src="/js/bootstrap.min.js "></script>
+    <script src="/js/myjs..js"></script>
+  </body>
+</html>
